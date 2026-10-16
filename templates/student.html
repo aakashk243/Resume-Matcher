@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Student Portal · Resume Matcher{% endblock %}
+{% block content %}
+<h1 class="page-title">Student Portal</h1>
+<p class="muted">See how well your resume fits a job, which skills are missing, and get a study plan to close the gap.</p>
+
+<form id="student-form" class="card form-grid" autocomplete="off">
+  <div class="field">
+    <label>Your resume</label>
+    <input type="file" name="resume_file" accept=".pdf,.docx,.txt">
+    <textarea name="resume_text" rows="8" placeholder="…or paste your resume text"></textarea>
+  </div>
+  <div class="field">
+    <label>Job description</label>
+    <input type="file" name="jd_file" accept=".pdf,.docx,.txt">
+    <textarea name="jd_text" rows="8" placeholder="…or paste the job description"></textarea>
+  </div>
+  <div class="field inline">
+    <label for="hours">Study time: <b id="hours-val">10</b> hours / week</label>
+    <input id="hours" type="range" name="hours_per_week" min="3" max="40" value="10">
+  </div>
+  <div class="field inline">
+    <label class="check"><input type="checkbox" name="free_only" value="1"> Free / audit-free courses only</label>
+  </div>
+  <div class="actions">
+    <button type="submit" class="btn primary">Analyze my fit</button>
+    <button type="button" id="load-sample" class="btn ghost">Load sample</button>
+  </div>
+  <p id="form-error" class="error" hidden></p>
+</form>
+
+<div id="loading" class="loading" hidden><div class="spinner"></div> Encoding with SBERT and building your roadmap…</div>
+
+<section id="results" hidden>
+  <div class="card score-row">
+    <div class="ring-wrap"><div id="ring-score"></div><span>Semantic match</span></div>
+    <div class="ring-wrap"><div id="ring-coverage"></div><span>Skill coverage</span></div>
+    <div class="score-text" id="score-text"></div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Skills you cover</h3>
+      <div id="matched" class="chips"></div>
+      <div id="partial-wrap" hidden>
+        <h4>Related evidence (not named explicitly)</h4>
+        <div id="partial"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Skills to work on</h3>
+      <div id="missing" class="chips"></div>
+      <div id="unbacked-wrap" hidden>
+        <h4>Listed but not demonstrated</h4>
+        <div id="unbacked" class="chips"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Suggestions</h3>
+    <ul id="suggestions" class="tips"></ul>
+    <details class="weak">
+      <summary>JD requirements your resume addresses least</summary>
+      <div id="weakest"></div>
+    </details>
+  </div>
+
+  <section id="roadmap" class="roadmap">
+    <div class="roadmap-head">
+      <div>
+        <h2>Your Learning Roadmap</h2>
+        <p class="muted" id="roadmap-sub"></p>
+      </div>
+      <div class="actions">
+        <button class="btn ghost" id="dl-md" type="button">Download (.md)</button>
+        <button class="btn ghost" id="print" type="button">Print / PDF</button>
+      </div>
+    </div>
+    <div id="roadmap-stats" class="stats"></div>
+
+    <div class="card">
+      <h3>Study map</h3>
+      <p class="muted small">Arrows point from a skill to what it unlocks. Columns match the roadmap phases below — click a skill to jump to it.</p>
+      <div class="legend">
+        <span><i class="dot known"></i>Already know</span>
+        <span><i class="dot prerequisite"></i>Prerequisite to learn</span>
+        <span><i class="dot target"></i>Skill the JD asks for</span>
+      </div>
+      <div id="study-map" class="map-scroll"></div>
+    </div>
+
+    <div id="phases" class="timeline"></div>
+    <div id="capstone"></div>
+    <div id="optional"></div>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='student.js') }}"></script>{% endblock %}

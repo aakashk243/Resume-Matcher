@@ -1,0 +1,1726 @@
+{
+  "Python": {
+    "level": "Beginner",
+    "hours": 40,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/python",
+    "courses": [
+      {
+        "title": "Python (Kaggle Learn)",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/python",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "CS50's Introduction to Programming with Python",
+        "provider": "Harvard / edX",
+        "url": "https://cs50.harvard.edu/python/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "provider": "University of Michigan / Coursera",
+        "url": "https://www.coursera.org/specializations/python",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Build a command-line expense tracker that reads/writes CSV files."
+  },
+  "Java": {
+    "level": "Beginner",
+    "hours": 50,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/java",
+    "courses": [
+      {
+        "title": "Java Programming MOOC",
+        "provider": "University of Helsinki",
+        "url": "https://java-programming.mooc.fi/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "Dev.java Learn",
+        "provider": "Oracle",
+        "url": "https://dev.java/learn/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a library-management console app using classes, collections and file I/O."
+  },
+  "C++": {
+    "level": "Beginner",
+    "hours": 50,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/cpp",
+    "courses": [
+      {
+        "title": "LearnCpp.com",
+        "provider": "LearnCpp",
+        "url": "https://www.learncpp.com/",
+        "cost": "Free",
+        "type": "Tutorial"
+      }
+    ],
+    "project": "Implement a bank-account simulator using classes and STL containers."
+  },
+  "C": {
+    "level": "Beginner",
+    "hours": 40,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "CS50x: Introduction to Computer Science",
+        "provider": "Harvard",
+        "url": "https://cs50.harvard.edu/x/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Write a student-records program using structs, pointers and file handling."
+  },
+  "JavaScript": {
+    "level": "Beginner",
+    "hours": 40,
+    "prerequisites": [
+      "HTML",
+      "CSS"
+    ],
+    "roadmap_sh": "https://roadmap.sh/javascript",
+    "courses": [
+      {
+        "title": "The Modern JavaScript Tutorial",
+        "provider": "javascript.info",
+        "url": "https://javascript.info/",
+        "cost": "Free",
+        "type": "Tutorial"
+      },
+      {
+        "title": "JavaScript Guide",
+        "provider": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "freeCodeCamp Curriculum",
+        "provider": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/learn/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build a to-do app with local filtering, fetch() calls to a public API and DOM updates."
+  },
+  "TypeScript": {
+    "level": "Intermediate",
+    "hours": 15,
+    "prerequisites": [
+      "JavaScript"
+    ],
+    "roadmap_sh": "https://roadmap.sh/typescript",
+    "courses": [
+      {
+        "title": "TypeScript Handbook",
+        "provider": "typescriptlang.org",
+        "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Convert your JavaScript to-do app to TypeScript with strict mode on."
+  },
+  "Go": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/golang",
+    "courses": [
+      {
+        "title": "A Tour of Go",
+        "provider": "go.dev",
+        "url": "https://go.dev/tour/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build a concurrent URL health-checker CLI using goroutines."
+  },
+  "R": {
+    "level": "Beginner",
+    "hours": 30,
+    "prerequisites": [
+      "Statistics"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "R for Data Science (2e)",
+        "provider": "Wickham et al.",
+        "url": "https://r4ds.hadley.nz/",
+        "cost": "Free",
+        "type": "Book"
+      }
+    ],
+    "project": "Analyse a public dataset with tidyverse and publish an R Markdown report."
+  },
+  "Kotlin": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/kotlin",
+    "courses": [
+      {
+        "title": "Kotlin Docs \u2013 Getting started",
+        "provider": "JetBrains",
+        "url": "https://kotlinlang.org/docs/getting-started.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a small Kotlin CLI quiz app."
+  },
+  "Rust": {
+    "level": "Advanced",
+    "hours": 50,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/rust",
+    "courses": [
+      {
+        "title": "The Rust Programming Language (Book)",
+        "provider": "rust-lang.org",
+        "url": "https://doc.rust-lang.org/book/",
+        "cost": "Free",
+        "type": "Book"
+      }
+    ],
+    "project": "Write a grep-like CLI tool in Rust."
+  },
+  "SQL": {
+    "level": "Beginner",
+    "hours": 20,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/sql",
+    "courses": [
+      {
+        "title": "Intro to SQL",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/intro-to-sql",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "Advanced SQL",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/advanced-sql",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "SQLBolt interactive lessons",
+        "provider": "SQLBolt",
+        "url": "https://sqlbolt.com/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Design a college database schema and write 15 queries including JOINs, GROUP BY and window functions."
+  },
+  "Data Structures and Algorithms": {
+    "level": "Intermediate",
+    "hours": 80,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": "https://roadmap.sh/datastructures-and-algorithms",
+    "courses": [
+      {
+        "title": "Algorithms Specialization",
+        "provider": "Stanford / Coursera",
+        "url": "https://www.coursera.org/specializations/algorithms",
+        "cost": "Free to audit",
+        "type": "Course"
+      },
+      {
+        "title": "NeetCode Roadmap",
+        "provider": "NeetCode",
+        "url": "https://neetcode.io/roadmap",
+        "cost": "Free",
+        "type": "Practice"
+      }
+    ],
+    "project": "Solve 75 curated problems (arrays, trees, graphs, DP) and document patterns in a GitHub repo."
+  },
+  "Object-Oriented Programming": {
+    "level": "Beginner",
+    "hours": 15,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Java Programming MOOC (OOP chapters)",
+        "provider": "University of Helsinki",
+        "url": "https://java-programming.mooc.fi/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "CS50P \u2013 Object-Oriented Programming lecture",
+        "provider": "Harvard",
+        "url": "https://cs50.harvard.edu/python/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Model a parking-lot system with classes, inheritance and interfaces."
+  },
+  "Operating Systems": {
+    "level": "Intermediate",
+    "hours": 40,
+    "prerequisites": [
+      "C"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Operating Systems: Three Easy Pieces",
+        "provider": "Arpaci-Dusseau",
+        "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "cost": "Free",
+        "type": "Book"
+      }
+    ],
+    "project": "Write a simple shell in C that supports pipes and background jobs."
+  },
+  "Computer Networks": {
+    "level": "Intermediate",
+    "hours": 30,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Computer Networking: A Top-Down Approach \u2013 resources",
+        "provider": "Kurose & Ross",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "cost": "Free",
+        "type": "Lectures"
+      }
+    ],
+    "project": "Build a TCP chat server and client with sockets."
+  },
+  "Linux": {
+    "level": "Beginner",
+    "hours": 15,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/linux",
+    "courses": [
+      {
+        "title": "The Missing Semester of Your CS Education",
+        "provider": "MIT",
+        "url": "https://missing.csail.mit.edu/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "Linux Journey",
+        "provider": "linuxjourney.com",
+        "url": "https://linuxjourney.com/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Write bash scripts to automate backups and log rotation on a Linux VM."
+  },
+  "Git": {
+    "level": "Beginner",
+    "hours": 8,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/git-github",
+    "courses": [
+      {
+        "title": "Learn Git Branching",
+        "provider": "learngitbranching.js.org",
+        "url": "https://learngitbranching.js.org/",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "Pro Git Book",
+        "provider": "git-scm.com",
+        "url": "https://git-scm.com/book/en/v2",
+        "cost": "Free",
+        "type": "Book"
+      }
+    ],
+    "project": "Contribute a pull request to an open-source repo using feature branches and rebasing."
+  },
+  "GitHub": {
+    "level": "Beginner",
+    "hours": 5,
+    "prerequisites": [
+      "Git"
+    ],
+    "roadmap_sh": "https://roadmap.sh/git-github",
+    "courses": [
+      {
+        "title": "GitHub Skills",
+        "provider": "GitHub",
+        "url": "https://skills.github.com/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Publish a portfolio repo with a README, issues and a project board."
+  },
+  "HTML": {
+    "level": "Beginner",
+    "hours": 10,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/frontend",
+    "courses": [
+      {
+        "title": "MDN Learn Web Development",
+        "provider": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "The Odin Project \u2013 Foundations",
+        "provider": "The Odin Project",
+        "url": "https://www.theodinproject.com/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Build a semantic, accessible personal portfolio page."
+  },
+  "CSS": {
+    "level": "Beginner",
+    "hours": 15,
+    "prerequisites": [
+      "HTML"
+    ],
+    "roadmap_sh": "https://roadmap.sh/frontend",
+    "courses": [
+      {
+        "title": "MDN Learn \u2013 CSS",
+        "provider": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "The Odin Project \u2013 Foundations",
+        "provider": "The Odin Project",
+        "url": "https://www.theodinproject.com/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Make your portfolio fully responsive using Flexbox and Grid."
+  },
+  "React": {
+    "level": "Intermediate",
+    "hours": 30,
+    "prerequisites": [
+      "JavaScript"
+    ],
+    "roadmap_sh": "https://roadmap.sh/react",
+    "courses": [
+      {
+        "title": "Learn React (official)",
+        "provider": "react.dev",
+        "url": "https://react.dev/learn",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Full Stack Open",
+        "provider": "University of Helsinki",
+        "url": "https://fullstackopen.com/en/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Build a movie-search SPA with React hooks, routing and an external API."
+  },
+  "Next.js": {
+    "level": "Intermediate",
+    "hours": 20,
+    "prerequisites": [
+      "React"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Next.js Learn",
+        "provider": "Vercel",
+        "url": "https://nextjs.org/learn",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build and deploy a blog with server-side rendering on Vercel."
+  },
+  "Angular": {
+    "level": "Intermediate",
+    "hours": 30,
+    "prerequisites": [
+      "TypeScript"
+    ],
+    "roadmap_sh": "https://roadmap.sh/angular",
+    "courses": [
+      {
+        "title": "Angular Tutorials",
+        "provider": "angular.dev",
+        "url": "https://angular.dev/tutorials",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a task dashboard with Angular components and services."
+  },
+  "Vue.js": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [
+      "JavaScript"
+    ],
+    "roadmap_sh": "https://roadmap.sh/vue",
+    "courses": [
+      {
+        "title": "Vue Tutorial",
+        "provider": "vuejs.org",
+        "url": "https://vuejs.org/tutorial/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build a recipe manager SPA with Vue."
+  },
+  "Tailwind CSS": {
+    "level": "Beginner",
+    "hours": 8,
+    "prerequisites": [
+      "CSS"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Tailwind CSS Docs",
+        "provider": "tailwindcss.com",
+        "url": "https://tailwindcss.com/docs",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Restyle your portfolio using Tailwind utility classes."
+  },
+  "Node.js": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [
+      "JavaScript"
+    ],
+    "roadmap_sh": "https://roadmap.sh/nodejs",
+    "courses": [
+      {
+        "title": "Learn Node.js (official)",
+        "provider": "nodejs.org",
+        "url": "https://nodejs.org/en/learn",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Full Stack Open",
+        "provider": "University of Helsinki",
+        "url": "https://fullstackopen.com/en/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Build a REST API for a notes app with Node.js and Express."
+  },
+  "Express.js": {
+    "level": "Intermediate",
+    "hours": 10,
+    "prerequisites": [
+      "Node.js"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Express Getting Started",
+        "provider": "expressjs.com",
+        "url": "https://expressjs.com/en/starter/installing.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Add auth middleware and validation to your notes API."
+  },
+  "Django": {
+    "level": "Intermediate",
+    "hours": 30,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": "https://roadmap.sh/django",
+    "courses": [
+      {
+        "title": "Django Official Tutorial",
+        "provider": "djangoproject.com",
+        "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a polling/blog site with authentication and an admin panel."
+  },
+  "Flask": {
+    "level": "Beginner",
+    "hours": 15,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Flask Tutorial (official)",
+        "provider": "Pallets",
+        "url": "https://flask.palletsprojects.com/en/stable/tutorial/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a small blog app with login, templates and SQLite."
+  },
+  "FastAPI": {
+    "level": "Intermediate",
+    "hours": 12,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "FastAPI Tutorial \u2013 User Guide",
+        "provider": "fastapi.tiangolo.com",
+        "url": "https://fastapi.tiangolo.com/tutorial/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Serve an ML model behind a typed FastAPI endpoint with Pydantic validation."
+  },
+  "Spring Boot": {
+    "level": "Intermediate",
+    "hours": 35,
+    "prerequisites": [
+      "Java"
+    ],
+    "roadmap_sh": "https://roadmap.sh/spring-boot",
+    "courses": [
+      {
+        "title": "Spring Guides",
+        "provider": "spring.io",
+        "url": "https://spring.io/guides",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a CRUD REST service with Spring Boot, JPA and PostgreSQL."
+  },
+  "REST APIs": {
+    "level": "Intermediate",
+    "hours": 10,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/api-design",
+    "courses": [
+      {
+        "title": "MDN \u2013 HTTP overview",
+        "provider": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Postman Academy",
+        "provider": "Postman",
+        "url": "https://academy.postman.com/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Design and document a REST API (OpenAPI spec) for a library system."
+  },
+  "GraphQL": {
+    "level": "Intermediate",
+    "hours": 12,
+    "prerequisites": [
+      "REST APIs"
+    ],
+    "roadmap_sh": "https://roadmap.sh/graphql",
+    "courses": [
+      {
+        "title": "Learn GraphQL",
+        "provider": "graphql.org",
+        "url": "https://graphql.org/learn/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Expose your notes app through a GraphQL schema with queries and mutations."
+  },
+  "Android": {
+    "level": "Intermediate",
+    "hours": 40,
+    "prerequisites": [
+      "Kotlin"
+    ],
+    "roadmap_sh": "https://roadmap.sh/android",
+    "courses": [
+      {
+        "title": "Android Basics with Compose",
+        "provider": "Google",
+        "url": "https://developer.android.com/courses",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Build a habit-tracker Android app with Jetpack Compose and Room."
+  },
+  "Flutter": {
+    "level": "Intermediate",
+    "hours": 35,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/flutter",
+    "courses": [
+      {
+        "title": "Flutter \u2013 Get started",
+        "provider": "flutter.dev",
+        "url": "https://docs.flutter.dev/get-started",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a cross-platform weather app that calls a public API."
+  },
+  "NumPy": {
+    "level": "Beginner",
+    "hours": 8,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "NumPy \u2013 Learn",
+        "provider": "numpy.org",
+        "url": "https://numpy.org/learn/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Implement matrix operations and image manipulation using only NumPy."
+  },
+  "Pandas": {
+    "level": "Beginner",
+    "hours": 12,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Pandas",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/pandas",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "pandas \u2013 Getting started tutorials",
+        "provider": "pandas.pydata.org",
+        "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Clean and analyse a messy public dataset (e.g., Indian census or IPL data) in a notebook."
+  },
+  "Data Visualization": {
+    "level": "Beginner",
+    "hours": 10,
+    "prerequisites": [
+      "Pandas"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Data Visualization",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/data-visualization",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Create a 6-chart exploratory analysis notebook and write the story it tells."
+  },
+  "Statistics": {
+    "level": "Beginner",
+    "hours": 30,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Statistics and Probability",
+        "provider": "Khan Academy",
+        "url": "https://www.khanacademy.org/math/statistics-probability",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "Seeing Theory (visual probability)",
+        "provider": "Brown University",
+        "url": "https://seeing-theory.brown.edu/",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Run an A/B-test analysis on a sample dataset with confidence intervals."
+  },
+  "Linear Algebra": {
+    "level": "Beginner",
+    "hours": 20,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Essence of Linear Algebra",
+        "provider": "3Blue1Brown",
+        "url": "https://www.3blue1brown.com/topics/linear-algebra",
+        "cost": "Free",
+        "type": "Video"
+      },
+      {
+        "title": "MIT 18.06 Linear Algebra",
+        "provider": "MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Implement PCA from scratch with NumPy on a small dataset."
+  },
+  "Calculus": {
+    "level": "Beginner",
+    "hours": 20,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Essence of Calculus",
+        "provider": "3Blue1Brown",
+        "url": "https://www.3blue1brown.com/topics/calculus",
+        "cost": "Free",
+        "type": "Video"
+      }
+    ],
+    "project": "Derive and code gradient descent for linear regression by hand."
+  },
+  "Excel": {
+    "level": "Beginner",
+    "hours": 12,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Excel video training",
+        "provider": "Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/excel",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a sales dashboard with pivot tables, XLOOKUP and charts."
+  },
+  "Power BI": {
+    "level": "Beginner",
+    "hours": 20,
+    "prerequisites": [
+      "Excel"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Power BI training",
+        "provider": "Microsoft Learn",
+        "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Publish an interactive Power BI report on a public dataset."
+  },
+  "Tableau": {
+    "level": "Beginner",
+    "hours": 20,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Tableau Free Training Videos",
+        "provider": "Tableau",
+        "url": "https://www.tableau.com/learn/training",
+        "cost": "Free",
+        "type": "Video"
+      }
+    ],
+    "project": "Publish a dashboard to Tableau Public."
+  },
+  "Data Analysis": {
+    "level": "Beginner",
+    "hours": 25,
+    "prerequisites": [
+      "Pandas",
+      "Statistics"
+    ],
+    "roadmap_sh": "https://roadmap.sh/data-analyst",
+    "courses": [
+      {
+        "title": "Google Data Analytics Professional Certificate",
+        "provider": "Google / Coursera",
+        "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Complete an end-to-end case study (question \u2192 cleaning \u2192 analysis \u2192 recommendation)."
+  },
+  "Apache Spark": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [
+      "Python",
+      "SQL"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Spark Quick Start",
+        "provider": "Apache",
+        "url": "https://spark.apache.org/docs/latest/quick-start.html",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Data Engineering Zoomcamp",
+        "provider": "DataTalksClub",
+        "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Process a multi-GB public dataset with PySpark and write partitioned Parquet."
+  },
+  "Hadoop": {
+    "level": "Intermediate",
+    "hours": 20,
+    "prerequisites": [
+      "Linux",
+      "Java"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Hadoop MapReduce Tutorial",
+        "provider": "Apache",
+        "url": "https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Run a word-count and log-analysis MapReduce job on a local cluster."
+  },
+  "Kafka": {
+    "level": "Intermediate",
+    "hours": 15,
+    "prerequisites": [
+      "Linux"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Kafka Quickstart",
+        "provider": "Apache",
+        "url": "https://kafka.apache.org/quickstart",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Stream simulated sensor events through Kafka into a database."
+  },
+  "Airflow": {
+    "level": "Intermediate",
+    "hours": 15,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Airflow Tutorial",
+        "provider": "Apache",
+        "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Schedule a daily ETL DAG that loads API data into PostgreSQL."
+  },
+  "ETL": {
+    "level": "Intermediate",
+    "hours": 20,
+    "prerequisites": [
+      "SQL",
+      "Python"
+    ],
+    "roadmap_sh": "https://roadmap.sh/data-engineer",
+    "courses": [
+      {
+        "title": "Data Engineering Zoomcamp",
+        "provider": "DataTalksClub",
+        "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Build an ETL pipeline from a public API to a star-schema warehouse."
+  },
+  "Machine Learning": {
+    "level": "Intermediate",
+    "hours": 60,
+    "prerequisites": [
+      "Python",
+      "NumPy",
+      "Statistics",
+      "Linear Algebra"
+    ],
+    "roadmap_sh": "https://roadmap.sh/machine-learning",
+    "courses": [
+      {
+        "title": "Machine Learning Specialization",
+        "provider": "DeepLearning.AI & Stanford / Coursera",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "cost": "Free to audit",
+        "type": "Course"
+      },
+      {
+        "title": "Intro to Machine Learning",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "Machine Learning Crash Course",
+        "provider": "Google",
+        "url": "https://developers.google.com/machine-learning/crash-course",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Train, tune and compare 3 models on a Kaggle tabular dataset; submit to the leaderboard."
+  },
+  "Scikit-learn": {
+    "level": "Intermediate",
+    "hours": 15,
+    "prerequisites": [
+      "Machine Learning"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "scikit-learn Tutorials",
+        "provider": "scikit-learn.org",
+        "url": "https://scikit-learn.org/stable/tutorial/index.html",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Intermediate Machine Learning",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build a full sklearn Pipeline with preprocessing, cross-validation and grid search."
+  },
+  "Feature Engineering": {
+    "level": "Intermediate",
+    "hours": 10,
+    "prerequisites": [
+      "Pandas",
+      "Machine Learning"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Feature Engineering",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/feature-engineering",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Improve a baseline model's score by 5%+ purely through engineered features."
+  },
+  "Deep Learning": {
+    "level": "Advanced",
+    "hours": 80,
+    "prerequisites": [
+      "Machine Learning",
+      "Calculus"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Deep Learning Specialization",
+        "provider": "DeepLearning.AI / Coursera",
+        "url": "https://www.coursera.org/specializations/deep-learning",
+        "cost": "Free to audit",
+        "type": "Course"
+      },
+      {
+        "title": "Practical Deep Learning for Coders",
+        "provider": "fast.ai",
+        "url": "https://course.fast.ai/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "Intro to Deep Learning",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Train a CNN image classifier and an LSTM text classifier; compare with a baseline."
+  },
+  "PyTorch": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [
+      "Python",
+      "Deep Learning"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Learn the Basics \u2013 PyTorch Tutorials",
+        "provider": "pytorch.org",
+        "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Practical Deep Learning for Coders",
+        "provider": "fast.ai",
+        "url": "https://course.fast.ai/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Implement a training loop from scratch and fine-tune a pretrained ResNet."
+  },
+  "TensorFlow": {
+    "level": "Intermediate",
+    "hours": 25,
+    "prerequisites": [
+      "Python",
+      "Deep Learning"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "TensorFlow Tutorials",
+        "provider": "tensorflow.org",
+        "url": "https://www.tensorflow.org/tutorials",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Intro to Deep Learning (Keras)",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build and export a Keras model, then serve it with TF Serving or TFLite."
+  },
+  "Natural Language Processing": {
+    "level": "Advanced",
+    "hours": 45,
+    "prerequisites": [
+      "Deep Learning"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Hugging Face Learn (LLM / NLP course)",
+        "provider": "Hugging Face",
+        "url": "https://huggingface.co/learn",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "CS224N: NLP with Deep Learning",
+        "provider": "Stanford",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "cost": "Free",
+        "type": "Lectures"
+      }
+    ],
+    "project": "Fine-tune a transformer for sentiment or resume-section classification."
+  },
+  "Computer Vision": {
+    "level": "Advanced",
+    "hours": 45,
+    "prerequisites": [
+      "Deep Learning"
+    ],
+    "roadmap_sh": "https://roadmap.sh/computer-vision",
+    "courses": [
+      {
+        "title": "CS231n: Deep Learning for Computer Vision",
+        "provider": "Stanford",
+        "url": "https://cs231n.stanford.edu/",
+        "cost": "Free",
+        "type": "Lectures"
+      },
+      {
+        "title": "Computer Vision",
+        "provider": "Kaggle",
+        "url": "https://www.kaggle.com/learn/computer-vision",
+        "cost": "Free",
+        "type": "Interactive"
+      }
+    ],
+    "project": "Build an object detector for a custom dataset using transfer learning."
+  },
+  "OpenCV": {
+    "level": "Intermediate",
+    "hours": 12,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "OpenCV-Python Tutorials",
+        "provider": "opencv.org",
+        "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a real-time face/blur filter with your webcam."
+  },
+  "Large Language Models": {
+    "level": "Advanced",
+    "hours": 30,
+    "prerequisites": [
+      "Natural Language Processing"
+    ],
+    "roadmap_sh": "https://roadmap.sh/ai-engineer",
+    "courses": [
+      {
+        "title": "Hugging Face LLM Course",
+        "provider": "Hugging Face",
+        "url": "https://huggingface.co/learn",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "DeepLearning.AI Short Courses",
+        "provider": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Build a RAG chatbot over your own PDF notes with an embedding index."
+  },
+  "Reinforcement Learning": {
+    "level": "Advanced",
+    "hours": 40,
+    "prerequisites": [
+      "Deep Learning"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Deep RL Course",
+        "provider": "Hugging Face",
+        "url": "https://huggingface.co/learn",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Train a DQN/PPO agent for a Gymnasium environment."
+  },
+  "MLOps": {
+    "level": "Advanced",
+    "hours": 35,
+    "prerequisites": [
+      "Machine Learning",
+      "Docker"
+    ],
+    "roadmap_sh": "https://roadmap.sh/mlops",
+    "courses": [
+      {
+        "title": "Made With ML",
+        "provider": "Goku Mohandas",
+        "url": "https://madewithml.com/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "MLOps Zoomcamp",
+        "provider": "DataTalksClub",
+        "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Containerise a model, track experiments with MLflow and add CI checks."
+  },
+  "Docker": {
+    "level": "Beginner",
+    "hours": 15,
+    "prerequisites": [
+      "Linux"
+    ],
+    "roadmap_sh": "https://roadmap.sh/docker",
+    "courses": [
+      {
+        "title": "Docker \u2013 Get Started",
+        "provider": "Docker",
+        "url": "https://docs.docker.com/get-started/",
+        "cost": "Free",
+        "type": "Docs"
+      },
+      {
+        "title": "Docker Curriculum",
+        "provider": "docker-curriculum.com",
+        "url": "https://docker-curriculum.com/",
+        "cost": "Free",
+        "type": "Tutorial"
+      }
+    ],
+    "project": "Containerise a Flask + PostgreSQL app with docker compose."
+  },
+  "Kubernetes": {
+    "level": "Advanced",
+    "hours": 30,
+    "prerequisites": [
+      "Docker"
+    ],
+    "roadmap_sh": "https://roadmap.sh/kubernetes",
+    "courses": [
+      {
+        "title": "Kubernetes Basics (interactive)",
+        "provider": "kubernetes.io",
+        "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "Introduction to Kubernetes (LFS158) \u2013 search on edX",
+        "provider": "Linux Foundation / edX",
+        "url": "https://www.edx.org/search?q=introduction%20to%20kubernetes",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Deploy your containerised app to a local kind/minikube cluster with a Deployment, Service and Ingress."
+  },
+  "AWS": {
+    "level": "Intermediate",
+    "hours": 40,
+    "prerequisites": [
+      "Linux"
+    ],
+    "roadmap_sh": "https://roadmap.sh/aws",
+    "courses": [
+      {
+        "title": "AWS Skill Builder (Cloud Practitioner Essentials)",
+        "provider": "Amazon",
+        "url": "https://skillbuilder.aws/",
+        "cost": "Free",
+        "type": "Course"
+      },
+      {
+        "title": "AWS Cloud Technical Essentials",
+        "provider": "AWS / Coursera",
+        "url": "https://www.coursera.org/learn/aws-cloud-technical-essentials",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Deploy a web app on EC2 behind a load balancer with static assets on S3 (use free tier)."
+  },
+  "Azure": {
+    "level": "Intermediate",
+    "hours": 35,
+    "prerequisites": [
+      "Linux"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Azure Fundamentals learning paths",
+        "provider": "Microsoft Learn",
+        "url": "https://learn.microsoft.com/en-us/training/azure/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Deploy a web app to Azure App Service with a managed database."
+  },
+  "Google Cloud": {
+    "level": "Intermediate",
+    "hours": 35,
+    "prerequisites": [
+      "Linux"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Google Cloud Skills Boost",
+        "provider": "Google",
+        "url": "https://www.cloudskillsboost.google/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Load a dataset into BigQuery and serve insights from Cloud Run."
+  },
+  "CI/CD": {
+    "level": "Intermediate",
+    "hours": 12,
+    "prerequisites": [
+      "Git"
+    ],
+    "roadmap_sh": "https://roadmap.sh/devops",
+    "courses": [
+      {
+        "title": "GitHub Actions documentation",
+        "provider": "GitHub",
+        "url": "https://docs.github.com/en/actions",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Add a pipeline that lints, tests and builds a Docker image on every push."
+  },
+  "Jenkins": {
+    "level": "Intermediate",
+    "hours": 12,
+    "prerequisites": [
+      "CI/CD"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Jenkins Tutorials",
+        "provider": "jenkins.io",
+        "url": "https://www.jenkins.io/doc/tutorials/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Create a Jenkins pipeline (Jenkinsfile) for a multi-stage build."
+  },
+  "Terraform": {
+    "level": "Intermediate",
+    "hours": 15,
+    "prerequisites": [
+      "Linux"
+    ],
+    "roadmap_sh": "https://roadmap.sh/terraform",
+    "courses": [
+      {
+        "title": "Terraform Tutorials",
+        "provider": "HashiCorp",
+        "url": "https://developer.hashicorp.com/terraform/tutorials",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Provision a VPC + VM + bucket with Terraform and destroy it cleanly."
+  },
+  "Microservices": {
+    "level": "Advanced",
+    "hours": 25,
+    "prerequisites": [
+      "REST APIs",
+      "Docker"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Microservices.io patterns",
+        "provider": "Chris Richardson",
+        "url": "https://microservices.io/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Split a monolith into 3 services communicating via REST and a message queue."
+  },
+  "System Design": {
+    "level": "Advanced",
+    "hours": 40,
+    "prerequisites": [
+      "REST APIs",
+      "SQL"
+    ],
+    "roadmap_sh": "https://roadmap.sh/system-design",
+    "courses": [
+      {
+        "title": "System Design Primer",
+        "provider": "donnemartin (GitHub)",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Write a design doc for a URL shortener at 100M requests/day, then build a small version."
+  },
+  "MySQL": {
+    "level": "Beginner",
+    "hours": 10,
+    "prerequisites": [
+      "SQL"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "MySQL Tutorial (official)",
+        "provider": "Oracle",
+        "url": "https://dev.mysql.com/doc/refman/8.0/en/tutorial.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Design and index a MySQL schema for an e-commerce store."
+  },
+  "PostgreSQL": {
+    "level": "Beginner",
+    "hours": 12,
+    "prerequisites": [
+      "SQL"
+    ],
+    "roadmap_sh": "https://roadmap.sh/postgresql-dba",
+    "courses": [
+      {
+        "title": "PostgreSQL Tutorial",
+        "provider": "postgresql.org",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Build a PostgreSQL schema with constraints, indexes and a query-plan analysis."
+  },
+  "MongoDB": {
+    "level": "Beginner",
+    "hours": 12,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/mongodb",
+    "courses": [
+      {
+        "title": "MongoDB University",
+        "provider": "MongoDB",
+        "url": "https://learn.mongodb.com/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Model a blog (users/posts/comments) in MongoDB with aggregation pipelines."
+  },
+  "Redis": {
+    "level": "Intermediate",
+    "hours": 8,
+    "prerequisites": [],
+    "roadmap_sh": "https://roadmap.sh/redis",
+    "courses": [
+      {
+        "title": "Redis University",
+        "provider": "Redis",
+        "url": "https://university.redis.io/",
+        "cost": "Free",
+        "type": "Course"
+      }
+    ],
+    "project": "Add a Redis cache layer to your API and measure the latency improvement."
+  },
+  "Unit Testing": {
+    "level": "Beginner",
+    "hours": 10,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "pytest \u2013 Get Started",
+        "provider": "pytest.org",
+        "url": "https://docs.pytest.org/en/stable/getting-started.html",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Reach 80%+ test coverage on one of your existing projects."
+  },
+  "Selenium": {
+    "level": "Intermediate",
+    "hours": 12,
+    "prerequisites": [
+      "Python"
+    ],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Selenium Documentation",
+        "provider": "selenium.dev",
+        "url": "https://www.selenium.dev/documentation/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Automate an end-to-end login + checkout test on a demo site."
+  },
+  "Agile": {
+    "level": "Beginner",
+    "hours": 6,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Agile Coach",
+        "provider": "Atlassian",
+        "url": "https://www.atlassian.com/agile",
+        "cost": "Free",
+        "type": "Guide"
+      }
+    ],
+    "project": "Run your next team project in 1-week sprints with a Jira/Trello board."
+  },
+  "Cybersecurity": {
+    "level": "Intermediate",
+    "hours": 40,
+    "prerequisites": [
+      "Computer Networks",
+      "Linux"
+    ],
+    "roadmap_sh": "https://roadmap.sh/cyber-security",
+    "courses": [
+      {
+        "title": "Google Cybersecurity Professional Certificate",
+        "provider": "Google / Coursera",
+        "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+        "cost": "Free to audit",
+        "type": "Course"
+      },
+      {
+        "title": "TryHackMe learning paths",
+        "provider": "TryHackMe",
+        "url": "https://tryhackme.com/",
+        "cost": "Free",
+        "type": "Interactive"
+      },
+      {
+        "title": "OWASP Top Ten",
+        "provider": "OWASP",
+        "url": "https://owasp.org/www-project-top-ten/",
+        "cost": "Free",
+        "type": "Docs"
+      }
+    ],
+    "project": "Audit your own web app against the OWASP Top 10 and fix what you find."
+  },
+  "Communication": {
+    "level": "Beginner",
+    "hours": 8,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Coursera \u2013 communication courses",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/search?query=communication%20skills",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Present one of your projects in a 5-minute recorded talk and ask for feedback."
+  },
+  "Teamwork": {
+    "level": "Beginner",
+    "hours": 5,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Coursera \u2013 teamwork courses",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/search?query=teamwork",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Contribute to a team hackathon project and document your role."
+  },
+  "Leadership": {
+    "level": "Intermediate",
+    "hours": 8,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "Coursera \u2013 leadership courses",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/search?query=leadership",
+        "cost": "Free to audit",
+        "type": "Course"
+      }
+    ],
+    "project": "Lead a club event or open-source sprint and write a short retrospective."
+  },
+  "Problem Solving": {
+    "level": "Beginner",
+    "hours": 10,
+    "prerequisites": [],
+    "roadmap_sh": null,
+    "courses": [
+      {
+        "title": "LeetCode problem sets",
+        "provider": "LeetCode",
+        "url": "https://leetcode.com/problemset/",
+        "cost": "Free",
+        "type": "Practice"
+      }
+    ],
+    "project": "Solve one problem daily for 30 days and blog your approach for five of them."
+  }
+}

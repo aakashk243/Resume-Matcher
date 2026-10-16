@@ -1,0 +1,35 @@
+PRIYA RAMAN
+priya.raman@example.com | +91 98765 43210 | github.com/priyaraman | Chennai
+
+SUMMARY
+Final-year B.Tech Computer Science student interested in data science and backend development.
+
+EDUCATION
+B.Tech in Computer Science and Engineering, Amrita Vishwa Vidyapeetham, Chennai — CGPA 8.4 (2022–2026)
+
+TECHNICAL SKILLS
+Languages: Python, SQL, Java, C
+Libraries: Pandas, NumPy, Matplotlib, Scikit-learn
+Tools: Git, GitHub, Linux, Docker, Excel
+Web: Flask, HTML, CSS
+
+EXPERIENCE
+Data Analyst Intern — Zeta Retail Analytics, Chennai (May 2025 – Jul 2025)
+- Cleaned and analysed 2M+ sales records using Python and Pandas, cutting weekly reporting time by 40%.
+- Wrote SQL queries with window functions to build store-level KPI tables in PostgreSQL.
+- Built dashboards with charts that the regional managers used in weekly reviews.
+
+PROJECTS
+Student Performance Predictor
+- Trained a random-forest model with Scikit-learn on 10k student records; 87% accuracy.
+- Served predictions through a Flask REST API and a simple HTML/CSS front end.
+
+Expense Tracker CLI
+- Python command-line app with SQLite storage and unit tests using pytest.
+
+CERTIFICATIONS
+- Kaggle: Intro to Machine Learning
+- NPTEL: Programming in Java (Elite)
+
+ACHIEVEMENTS
+- Finalist, Smart India Hackathon 2024 — worked in a team of six on a crop-price forecasting tool.

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Resume ↔ Job Description Matching</h1>
+  <p class="lead">Semantic similarity scoring with a Siamese SBERT encoder, explainable skill-level gaps,
+    and a personalised learning roadmap to close them.</p>
+</section>
+<section class="portal-grid">
+  <a class="card portal" href="/student">
+    <div class="portal-icon">🎓</div>
+    <h2>Student Portal</h2>
+    <ul>
+      <li>Semantic match score &amp; skill coverage</li>
+      <li>Matched vs missing skills (required / preferred)</li>
+      <li><strong>Study map</strong>: prerequisite graph of what to learn</li>
+      <li><strong>Week-by-week roadmap</strong> with free &amp; paid courses, projects and milestones</li>
+    </ul>
+    <span class="btn">Open Student Portal →</span>
+  </a>
+  <a class="card portal" href="/employer">
+    <div class="portal-icon">🏢</div>
+    <h2>Employer Portal</h2>
+    <ul>
+      <li>Rank many resumes against one JD</li>
+      <li>Well-supported vs list-only skills</li>
+      <li>Suggested interview questions for skills worth probing</li>
+    </ul>
+    <span class="btn">Open Employer Portal →</span>
+  </a>
+</section>
+<section class="card pipeline">
+  <h3>Pipeline</h3>
+  <ol class="steps">
+    <li><b>Parse</b><span>PDF / DOCX / text</span></li>
+    <li><b>Preprocess</b><span>clean, sections, required vs preferred</span></li>
+    <li><b>Skill extraction</b><span>spaCy PhraseMatcher + taxonomy</span></li>
+    <li><b>SBERT</b><span>Siamese bi-encoder embeddings</span></li>
+    <li><b>Score</b><span>cosine → 0–100</span></li>
+    <li><b>Gap analysis / Consistency</b><span>+ learning roadmap</span></li>
+  </ol>
+</section>
+{% endblock %}

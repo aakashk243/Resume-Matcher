@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Employer Portal · Resume Matcher{% endblock %}
+{% block content %}
+<h1 class="page-title">Employer Portal</h1>
+<p class="muted">Rank candidate resumes against a job description and see which claimed skills are backed by real experience.</p>
+
+<form id="employer-form" class="card form-grid" autocomplete="off">
+  <div class="field">
+    <label>Job description</label>
+    <input type="file" name="jd_file" accept=".pdf,.docx,.txt">
+    <textarea name="jd_text" rows="8" placeholder="…or paste the job description"></textarea>
+  </div>
+  <div class="field">
+    <label>Candidate resumes (select several)</label>
+    <input type="file" name="resume_files" accept=".pdf,.docx,.txt" multiple>
+    <textarea name="resume_text" rows="8" placeholder="…or paste one resume"></textarea>
+  </div>
+  <div class="actions">
+    <button type="submit" class="btn primary">Screen candidates</button>
+    <button type="button" id="load-sample" class="btn ghost">Load sample</button>
+  </div>
+  <p id="form-error" class="error" hidden></p>
+</form>
+
+<div id="loading" class="loading" hidden><div class="spinner"></div> Scoring candidates…</div>
+
+<section id="results" hidden>
+  <div class="card">
+    <h3>Candidate ranking</h3>
+    <div class="table-scroll">
+      <table class="rank">
+        <thead><tr><th>#</th><th>Candidate</th><th>Match</th><th>Skill coverage</th><th>Supported by experience</th></tr></thead>
+        <tbody id="rank-body"></tbody>
+      </table>
+    </div>
+  </div>
+  <div id="detail"></div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='employer.js') }}"></script>{% endblock %}

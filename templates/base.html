@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Resume ↔ JD Matcher{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="logo">R↔JD</span> Resume Matcher</a>
+    <nav>
+      <a href="/student" class="{{ 'active' if request.path == '/student' }}">Student Portal</a>
+      <a href="/employer" class="{{ 'active' if request.path == '/employer' }}">Employer Portal</a>
+    </nav>
+    <span id="backend-badge" class="badge muted" title="Similarity model in use">model: …</span>
+  </header>
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="footer">23CSE473 Neural Networks &amp; Deep Learning · SBERT (all-MiniLM-L6-v2) bi-encoder + skill taxonomy</footer>
+  <script src="{{ url_for('static', filename='common.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

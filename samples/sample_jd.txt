@@ -1,0 +1,24 @@
+Machine Learning Engineer (Graduate) — Nimbus AI Labs, Bengaluru
+
+About the role
+You will build, deploy and monitor machine learning models that power our document-intelligence products. You will work with data scientists and backend engineers to take models from notebooks to production.
+
+Responsibilities
+- Train and evaluate machine learning and deep learning models for text classification and information extraction.
+- Build NLP pipelines using transformer models.
+- Package models as REST APIs and deploy them with Docker on AWS.
+- Write clean, tested Python code and collaborate through Git and code reviews.
+- Monitor models in production and automate retraining (MLOps).
+
+Requirements
+- Strong Python and SQL skills.
+- Solid understanding of machine learning fundamentals and statistics.
+- Hands-on experience with PyTorch or TensorFlow.
+- Experience with NLP (tokenization, embeddings, transformers).
+- Familiarity with Docker and AWS.
+- Good communication and teamwork.
+
+Nice to have
+- Kubernetes
+- CI/CD with GitHub Actions
+- Experience with large language models / RAG

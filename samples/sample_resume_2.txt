@@ -1,0 +1,24 @@
+ARJUN MENON
+arjun.menon@example.com | linkedin.com/in/arjunmenon | Bengaluru
+
+SUMMARY
+Machine learning engineer with 1 year of experience shipping NLP models to production.
+
+SKILLS
+Python, PyTorch, TensorFlow, NLP, Transformers, Docker, Kubernetes, AWS, SQL, Git, CI/CD, MLOps, Statistics
+
+EXPERIENCE
+ML Engineer — DocuSense AI, Bengaluru (Jul 2024 – Present)
+- Fine-tuned transformer models in PyTorch for invoice field extraction, improving F1 from 0.81 to 0.90.
+- Packaged models as REST APIs with FastAPI and deployed them in Docker containers on AWS ECS.
+- Set up MLflow tracking and a GitHub Actions pipeline that retrains and tests models weekly.
+- Wrote SQL queries to build labelled training datasets from PostgreSQL.
+
+PROJECTS
+Resume Section Classifier
+- BERT-based classifier (PyTorch) that tags resume lines by section; 94% accuracy.
+RAG Chatbot over Course Notes
+- Built a retrieval-augmented generation chatbot using sentence embeddings and an LLM.
+
+EDUCATION
+B.E. Computer Science, PES University — 2024
